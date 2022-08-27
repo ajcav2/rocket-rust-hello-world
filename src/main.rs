@@ -4,7 +4,7 @@
 
 #[cfg(test)] mod tests;
 
-#[get("/")]
+#[get("/hello")]
 fn hello() -> &'static str {
     "Hello, world!"
 }
